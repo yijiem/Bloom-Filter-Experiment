@@ -28,6 +28,9 @@ def test_300000_bloomfilter():
         print "max" + " " + bf.lookup("max")
         print "zksjnlkjnlbjnasldn" + " " + bf.lookup("zksjnlkjnlbjnasldn")
         print "123" + " " + bf.lookup("123")
+        print "aksjdh" + " " + bf.lookup("aksjdh")
+        print "carnegie" + " " + bf.lookup("carnegie")
+        print "mellon" + " " + bf.lookup("mellon")
 	print ""
 
 def test_400000_bloomfilter():
@@ -40,6 +43,9 @@ def test_400000_bloomfilter():
         print "max" + " " + bf.lookup("max")
         print "zksjnlkjnlbjnasldn" + " " + bf.lookup("zksjnlkjnlbjnasldn")
         print "123" + " " + bf.lookup("123")
+        print "aksjdh" + " " + bf.lookup("aksjdh")
+        print "carnegie" + " " + bf.lookup("carnegie")
+        print "mellon" + " " + bf.lookup("mellon")
 	print ""
 
 def test_optimal_bloomfilter():
@@ -52,4 +58,7 @@ def test_optimal_bloomfilter():
         print "max" + " " + bf.lookup("max")
         print "zksjnlkjnlbjnasldn" + " " + bf.lookup("zksjnlkjnlbjnasldn")
         print "123" + " " + bf.lookup("123")
+        print "aksjdh" + " " + bf.lookup("aksjdh")
+        print "carnegie" + " " + bf.lookup("carnegie")
+        print "mellon" + " " + bf.lookup("mellon")
         print ""
