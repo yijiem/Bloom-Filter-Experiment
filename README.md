@@ -15,9 +15,9 @@ International dictionary stored as /usr/share/dict/words in any FreeBSD based op
 Accuracy Test:
 I runned multiple tests based on different m(number of bits).
 The number of hash functions is given by the optimal axiom: k = ln(2)* (m/n)  
-n(number of words) is always 235886 according to the dictionary
 
-m(number of bits) = 200000	  
+n(number of words) is always 235886 according to the dictionary  
+m(number of bits) = 200000  
 k(number of hash functions) = 1  
 Query | Output | Result
 ----- | ------ | ------
@@ -26,13 +26,14 @@ Query | Output | Result
 "llsdnln" | Probably | false positive
 "123" | Probably | false positive
 
-m = 300000
-k = 1
- Query          Output          Result
-"google"          No             true
-"max"          Probably          true
-"llsdnln"         No             true
-"123"          Probably      false positive
+m = 300000  
+k = 1  
+ Query | Output | Result
+ ----- | ------ | ------
+"google" | No | true
+"max" | Probably | true
+"llsdnln" | No | true
+"123" | Probably | false positive
 
 There is someting really interesting in these 3 tests. The first one is obviously a trivial one, because the number of bits is
 less than the number of data. So the fault positive rate is high. The second is pretty nice, it has 300000/235886=1.27bit/data
