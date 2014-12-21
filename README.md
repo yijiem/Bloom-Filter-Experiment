@@ -14,7 +14,7 @@ International dictionary stored as /usr/share/dict/words in any FreeBSD based op
 
 Accuracy Test:
 I runned multiple tests based on different m(number of bits).
-The number of hash functions is given by the optimal axiom: k = ln(2)* (m/n)
+The number of hash functions is given by the optimal axiom: k = ln(2)* (m/n)  
 n(number of words) is always 235886 according to the dictionary
 
 m(number of bits) = 200000	  
