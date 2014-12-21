@@ -1,7 +1,9 @@
 Bloom-Filter-Experiment
 =======================
 
-This is Yijie Ma's first python project about bloom filter. Bloom filter is a data storing heuristic that can save memory
+~~Play with some markdowns~~
+
+This is Yijie Ma's project about bloom filter implementing using python. Bloom filter is a data storing heuristic that can save memory
 but in sacrifice for some fault positive which might not matter according to some applications(achieve small space overhead
 by accepting a small probability of fault positive). For example, Quora implements a filter to filt out stories people have
 seen before. It is ok if it makes some mistake because users will never know and never care about that. At the same time, the
@@ -17,11 +19,12 @@ n(number of words) is always 235886 according to the dictionary
 
 m(number of bits) = 200000	  
 k(number of hash functions) = 1
- Query		Output		Result
-"google"       Probably	     false positive
-"max"	       Probably	         true
-"llsdnln"      Probably	     false positive
-"123"	       Probably	     false positive
+|Query | Output | Result |
+|------|--------|--------|
+|"google"|Probably|false positive|
+|"max"|Probably|true|
+|"llsdnln"|Probably|false positive|
+|"123"|Probably|false positive|
 
 m = 300000
 k = 1
