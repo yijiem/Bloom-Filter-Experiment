@@ -19,12 +19,12 @@ n(number of words) is always 235886 according to the dictionary
 
 m(number of bits) = 200000	  
 k(number of hash functions) = 1
-| Query | Output | Result |
-| ----- | ------ | ------ |
-| "google" | Probably | false positive |
-| "max" | Probably | true |
-| "llsdnln" | Probably | false positive |
-| "123" | Probably | false positive |
+Query | Output | Result
+----- | ------ | ------
+"google" | Probably | false positive
+"max" | Probably | true
+"llsdnln" | Probably | false positive
+"123" | Probably | false positive
 
 m = 300000
 k = 1
