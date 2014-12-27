@@ -19,6 +19,7 @@ The number of hash functions is given by the optimal axiom: k = ln(2)* (m/n)
 n(number of words) is always 235886 according to the dictionary  
 m(number of bits) = 200000  
 k(number of hash functions) = 1  
+
 Query | Output | Result
 ----- | ------ | ------
 "google" | Probably | false positive
@@ -28,6 +29,7 @@ Query | Output | Result
 
 m = 300000  
 k = 1  
+
  Query | Output | Result
  ----- | ------ | ------
 "google" | No | true
