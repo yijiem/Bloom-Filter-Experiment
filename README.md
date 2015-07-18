@@ -1,8 +1,6 @@
 Bloom-Filter-Experiment
 =======================
 
-~~Play with some markdowns~~
-
 This is Yijie Ma's project about bloom filter implementing using python. Bloom filter is a data storing heuristic that can save memory
 but in sacrifice for some fault positive which might not matter according to some applications(achieve small space overhead
 by accepting a small probability of fault positive). For example, Quora implements a filter to filt out stories people have
